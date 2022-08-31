@@ -1,0 +1,105 @@
+.title{
+    margin-bottom: 2rem !important;
+    text-align: center;
+
+    .input-title{
+        font-size: 0.5rem;
+        margin-bottom: 15px;
+
+    }
+}
+
+.login-container{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    h6{
+        margin-left: 0.7rem;
+        margin-bottom: 0.2rem;
+    }
+    .tab-container{
+        background-color: var(--bg-1);
+        border-radius: 2rem;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 2rem;
+
+        .active-tab{
+            background-color: var(--green-color);
+            color: var(--bg-1);
+        }
+        
+
+        button{
+            color: var(--text-light);
+            background-color: transparent;
+            border-radius: 2rem;
+            font-size: 0.8rem;
+        }
+        
+    }
+    .checkbox-container{
+        align-items: center;
+        font-size: 0.8rem;
+        justify-content: center;
+
+        a{
+            color: var(--green-color);
+            cursor: pointer;
+        }
+    }
+    .btn-container{
+        align-items: center;
+        .btn{
+            background-color: var(--green-color);
+            color: var(--bg-1);
+            outline: none;
+            box-shadow: none;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            border-radius: 2rem;
+            width: 10rem;
+          
+            &:disabled,
+            &[disabled] {
+              cursor: not-allowed;
+              opacity: .6;
+            }
+          
+            &:active,
+            &:focus {
+              outline: none;
+              box-shadow: none;
+            }
+        }
+    }
+
+    
+}
+
+svg{
+    path{
+        fill: var(--green-color);
+    }
+}
+
+.tabIndicator{
+    background-color: var(--green-color);
+    border-bottom: none;
+}
+
+@media (max-width:1200px) {
+
+    .login-container{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    
+}
+
+@media (max-width:350px){
+    .tab-container{
+        button{
+            font-size: 0.6rem;
+        }
+    }
+}
