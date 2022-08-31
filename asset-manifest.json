@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/simpli/static/css/main.406f6f58.css",
+    "main.js": "/simpli/static/js/main.1a0d4284.js",
+    "static/js/787.a6a8cf8e.chunk.js": "/simpli/static/js/787.a6a8cf8e.chunk.js",
+    "static/media/logo.svg": "/simpli/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/simpli/index.html",
+    "main.406f6f58.css.map": "/simpli/static/css/main.406f6f58.css.map",
+    "main.1a0d4284.js.map": "/simpli/static/js/main.1a0d4284.js.map",
+    "787.a6a8cf8e.chunk.js.map": "/simpli/static/js/787.a6a8cf8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.406f6f58.css",
+    "static/js/main.1a0d4284.js"
+  ]
+}
